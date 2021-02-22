@@ -26,7 +26,7 @@ componentDidMount(){
 render(){
   return (
     <div className="App">
-      <h1>hey can we get something on the screen plz</h1>
+      <h1>hey can we get something on the screen plz text</h1>
       <VinylContainer/>
     </div>
   );
