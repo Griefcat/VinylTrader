@@ -14,17 +14,14 @@ const useStyles = makeStyles({
 export default class VinylContainer extends Component {
     
     render() {
+        console.log(this.props)
         return (
+            
             <div>
                 <Grid container spacing={4}>
                     <Grid item >
-                        <VinylCard/>
-                    </Grid>
-                    <Grid item >
-                        <VinylCard/>
-                    </Grid>
-                    <Grid item >
-                        <VinylCard/>
+                    {this.props.vinyls.map(
+                        vinyl => <VinylCard key={vinyl.id} vinyl={vinyl}/>)}
                     </Grid>
                 </Grid>
                 

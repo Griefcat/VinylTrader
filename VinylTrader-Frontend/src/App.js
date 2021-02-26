@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import VinylContainer from './containers/VinylContainer'
+import TopNavBar from './containers/TopNavBar'
 
 
 const url = 'http://localhost:3000/vinyls'
@@ -17,6 +18,7 @@ componentDidMount(){
     .then(response => response.json())
     .then((vinyls) => 
       console.log(vinyls)
+      (this.setState({vinyls: vinyls}))
     )
     .catch((error) => {
       console.error(error);
@@ -24,10 +26,13 @@ componentDidMount(){
 }
 
 render(){
+
+const vinyls = this.state.vinyls
+
   return (
     <div className="App">
-      <h1>hey can we get something on the screen plz text</h1>
-      <VinylContainer/>
+      <TopNavBar/>
+      <VinylContainer vinyls={vinyls}/>
     </div>
   );
 }

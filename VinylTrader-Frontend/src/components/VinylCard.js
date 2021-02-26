@@ -30,9 +30,8 @@ const useStyles = makeStyles({
 });
 
 
-export default function ImgMediaCard() {
+export default function VinylCard(props) {
   const classes = useStyles();
-
   return (
     <Card className={classes.root}>
       <CardActionArea>
@@ -40,16 +39,24 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="340"
-          image='https://m.media-amazon.com/images/I/617rSnmzb3L._SS500_.jpg'
+          image={props.vinyl.image}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+          {props.vinyl.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {props.vinyl.artist}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {props.vinyl.genre}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {props.vinyl.year}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {props.vinyl.rare}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -64,3 +71,10 @@ export default function ImgMediaCard() {
     </Card>
   );
 }
+
+// (image: 'https://m.media-amazon.com/images/I/617rSnmzb3L._SS500_.jpg',
+//                         title: 'Griefcat',
+//                         artist: 'Griefcat',
+//                         genre: 'folk',
+//                         year: 2020,
+//                         rare: true )
