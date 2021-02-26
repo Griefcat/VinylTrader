@@ -40,7 +40,7 @@ export default function VinylCard(props) {
           alt="Contemplative Reptile"
           height="340"
           image={props.vinyl.image}
-          title="Contemplative Reptile"
+          title="${props.vinyl.image}"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

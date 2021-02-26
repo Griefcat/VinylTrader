@@ -5,21 +5,22 @@ import { Grid } from "@material-ui/core"
 
 
 const useStyles = makeStyles({
-    root: {
-      maxWidth: 345,
-    },
-  });
-
+    gridContainer: {
+        paddingLeft: "20px",
+        paddingRight: "20px"
+    }
+});
 
 export default class VinylContainer extends Component {
     
     render() {
         console.log(this.props)
+        
         return (
             
             <div>
-                <Grid container spacing={4}>
-                    <Grid item >
+                <Grid container spacing={4} className = {useStyles.gridContainer}>
+                    <Grid item md={4}>
                     {this.props.vinyls.map(
                         vinyl => <VinylCard key={vinyl.id} vinyl={vinyl}/>)}
                     </Grid>
