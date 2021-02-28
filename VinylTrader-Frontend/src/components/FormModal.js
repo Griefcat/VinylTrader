@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     width: '25ch',
   },
 }));
+
 
 export default function FormModal() {
   const classes = useStyles();
@@ -57,6 +59,9 @@ export default function FormModal() {
           margin="normal"
           variant="outlined"
         />
+        <Button variant="contained" color="primary" type="button">
+        Submit Vinyl
+      </Button>
       </div>
       
     </div>
