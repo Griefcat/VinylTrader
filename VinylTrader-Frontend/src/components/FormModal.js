@@ -1,10 +1,65 @@
-import React from 'react'
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    maxWidth: 345,
+  },
+  textField: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1),
+    width: '25ch',
+  },
+}));
 
 export default function FormModal() {
-    return (
-        <div>
-            <h1>nav bar party</h1>
-        </div>
-    )
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+        <p>New Vinyl</p>
+      <div>
+      <TextField
+          label="Album Cover URL"
+          id="outlined-margin-normal"
+          className={classes.textField}
+          margin="normal"
+          variant="outlined"
+        />
+        <TextField
+          label="Title"
+          id="outlined-margin-normal"
+          className={classes.textField}
+          margin="normal"
+          variant="outlined"
+        />
+         <TextField
+          label="Artist"
+          id="outlined-margin-normal"
+          className={classes.textField}
+          margin="normal"
+          variant="outlined"
+        />
+        <TextField
+          label="Genre"
+          id="outlined-margin-normal"
+          className={classes.textField}
+          margin="normal"
+          variant="outlined"
+        />
+         <TextField
+          label="Year"
+          id="outlined-margin-normal"
+          className={classes.textField}
+          margin="normal"
+          variant="outlined"
+        />
+      </div>
+      
+    </div>
+  );
 }
 
