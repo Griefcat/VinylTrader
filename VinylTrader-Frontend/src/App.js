@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import VinylContainer from './containers/VinylContainer'
 import TopNavBar from './containers/TopNavBar'
+import {Route} from 'react-router-dom'
+import LandingPage from './containers/LandingPage'
 
 
 const url = 'http://localhost:3000/vinyls'
@@ -44,7 +46,7 @@ deleteVinyl = (vinyl) => {
       } else {
       }
     });
-    
+
     return fetch(`http://localhost:3000/vinyls/${vinyl.id}`, {
       method: 'delete'
     })
@@ -83,8 +85,13 @@ const vinyls = this.state.vinyls
 
   return (
     <div className="App">
+      
       <TopNavBar/>
-      <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>
+      <Route exact path='/' component={LandingPage}/>
+      <Route exact path='/vinyls' render={() => <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>}/>
+
+      
+      
     </div>
   );
 }
