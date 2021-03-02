@@ -28,8 +28,8 @@ componentDidMount(){
 handleSubmit = (vinyl) => {this.setState({vinyls: [vinyl, ...this.state.vinyls,]})}
 
 deleteVinyl = (vinyl) => {
-  let id = vinyl.id
-  const currentVinyls = this.state.vinyls;
+    let id = vinyl.id
+    const currentVinyls = this.state.vinyls;
 
   this.setState({
     vinyls: currentVinyls.filter(vinyl => vinyl.id !== id),
@@ -44,7 +44,30 @@ deleteVinyl = (vinyl) => {
       } else {
       }
     });
-}   
+    
+    return fetch(`http://localhost:3000/vinyls/${vinyl.id}`, {
+      method: 'delete'
+    })
+    .then(response => response.json())
+
+  }
+  // let id = vinyl.id
+  // const currentVinyls = this.state.vinyls;
+
+  // this.setState({
+  //   vinyls: currentVinyls.filter(vinyl => vinyl.id !== id),
+  // });
+  
+  //   axios.delete(`http://localhost:3001/vinyls/${id}`, this.state)
+  //   .then(response => {
+  //     if (response.status === 'error') {
+  //       this.setState({
+  //         vinyls: currentVinyls,
+  //       });
+  //     } else {
+  //     }
+  //   });
+  // }
 
 // deleteVinyl(vinyl){
 //   fetch('http://localhost:3001/vinyls/${id}'), {
