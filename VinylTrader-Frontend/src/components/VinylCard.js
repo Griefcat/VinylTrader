@@ -32,6 +32,9 @@ const useStyles = makeStyles({
 
 export default function VinylCard(props) {
   const classes = useStyles();
+  function handleDelete(){
+      props.deleteVinyl(props.vinyl)
+  }
   return (
     <Card className={classes.root}>
       <CardActionArea>
@@ -61,11 +64,11 @@ export default function VinylCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+        <Button size="small" color="primary" onClick={handleDelete}>
+          Delete 
         </Button>
-        <Button size="small" color="primary">
-          Learn More
+        <Button size="small" color="primary" >
+          Update Info
         </Button>
       </CardActions>
     </Card>

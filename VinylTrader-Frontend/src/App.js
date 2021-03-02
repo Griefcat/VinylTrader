@@ -5,7 +5,7 @@ import TopNavBar from './containers/TopNavBar'
 
 
 const url = 'http://localhost:3000/vinyls'
-
+const axios = require('axios').default
 
 class App extends Component {
 
@@ -27,6 +27,33 @@ componentDidMount(){
 
 handleSubmit = (vinyl) => {this.setState({vinyls: [vinyl, ...this.state.vinyls,]})}
 
+deleteVinyl = (vinyl) => {
+  let id = vinyl.id
+  const currentVinyls = this.state.vinyls;
+
+  this.setState({
+    vinyls: currentVinyls.filter(vinyl => vinyl.id !== id),
+  });
+  
+    axios.delete(`http://localhost:3001/vinyls/${id}`, this.state)
+    .then(response => {
+      if (response.status === 'error') {
+        this.setState({
+          vinyls: currentVinyls,
+        });
+      } else {
+      }
+    });
+}   
+
+// deleteVinyl(vinyl){
+//   fetch('http://localhost:3001/vinyls/${id}'), {
+//     method: 'DELETE'
+// }.then(() => { 
+
+//  })
+// }
+
 render(){
 
 const vinyls = this.state.vinyls
@@ -34,7 +61,7 @@ const vinyls = this.state.vinyls
   return (
     <div className="App">
       <TopNavBar/>
-      <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit}/>
+      <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>
     </div>
   );
 }

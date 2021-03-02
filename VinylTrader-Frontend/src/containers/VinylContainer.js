@@ -25,7 +25,7 @@ export default class VinylContainer extends Component {
                 <Grid container spacing={4} className = {useStyles.gridContainer}>
                     <Grid item md={4}>
                     {this.props.vinyls.map(
-                        vinyl => <VinylCard key={vinyl.id} vinyl={vinyl}/>)}
+                        vinyl => <VinylCard key={vinyl.id} vinyl={vinyl} deleteVinyl={this.props.deleteVinyl}/>)}
                     </Grid>
                 </Grid>
                 
