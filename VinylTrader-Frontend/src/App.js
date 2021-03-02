@@ -25,6 +25,8 @@ componentDidMount(){
     })
 }
 
+handleSubmit = (vinyl) => {this.setState({vinyls: [vinyl, ...this.state.vinyls,]})}
+
 render(){
 
 const vinyls = this.state.vinyls
@@ -32,7 +34,7 @@ const vinyls = this.state.vinyls
   return (
     <div className="App">
       <TopNavBar/>
-      <VinylContainer vinyls={vinyls}/>
+      <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit}/>
     </div>
   );
 }
