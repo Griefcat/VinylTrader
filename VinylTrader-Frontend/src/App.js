@@ -4,6 +4,7 @@ import VinylContainer from './containers/VinylContainer'
 import TopNavBar from './containers/TopNavBar'
 import {Route} from 'react-router-dom'
 import LandingPage from './containers/LandingPage'
+import NewUserModal from './components/NewUserModal'
 
 
 const url = 'http://localhost:3000/vinyls'
@@ -53,31 +54,6 @@ deleteVinyl = (vinyl) => {
     .then(response => response.json())
 
   }
-  // let id = vinyl.id
-  // const currentVinyls = this.state.vinyls;
-
-  // this.setState({
-  //   vinyls: currentVinyls.filter(vinyl => vinyl.id !== id),
-  // });
-  
-  //   axios.delete(`http://localhost:3001/vinyls/${id}`, this.state)
-  //   .then(response => {
-  //     if (response.status === 'error') {
-  //       this.setState({
-  //         vinyls: currentVinyls,
-  //       });
-  //     } else {
-  //     }
-  //   });
-  // }
-
-// deleteVinyl(vinyl){
-//   fetch('http://localhost:3001/vinyls/${id}'), {
-//     method: 'DELETE'
-// }.then(() => { 
-
-//  })
-// }
 
 render(){
 
@@ -88,6 +64,7 @@ const vinyls = this.state.vinyls
       
       <TopNavBar/>
       <Route exact path='/' component={LandingPage}/>
+      <Route exact path='/newuser' component={NewUserModal}/>
       <Route exact path='/vinyls' render={() => <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>}/>
 
       
