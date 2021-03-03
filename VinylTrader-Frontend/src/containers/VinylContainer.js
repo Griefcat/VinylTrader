@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import VinylCard from '../components/VinylCard'
-import Button from '../components/Button'
+import AddVinylButton from '../components/AddVinylButton'
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from "@material-ui/core"
 
@@ -21,7 +21,7 @@ export default class VinylContainer extends Component {
             
             <div>
                 Your Vinyls
-                <Button></Button>
+                <AddVinylButton></AddVinylButton>
                 <Grid container spacing={4} className = {useStyles.gridContainer}>
                     <Grid item md={4}>
                     {this.props.vinyls.map(

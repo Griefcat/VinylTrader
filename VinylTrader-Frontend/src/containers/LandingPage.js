@@ -1,11 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react';
+import LoginButton from '../components/LoginButton'
+import NewUserButton from '../components/NewUserButton'
 
-export default class LandingPage extends Component {
-    render() {
-        return (
-            <div>
-                <h1>here is a landing page</h1>
-            </div>
-        )
-    }
+export default function LandingPage() {
+  
+
+  return (
+    <div>
+        <NewUserButton color="inherit">Create New User</NewUserButton>
+        <LoginButton color="inherit">Login</LoginButton>
+        <h1>landing page</h1>
+    </div>
+  );
 }

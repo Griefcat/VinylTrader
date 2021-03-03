@@ -1,34 +1,10 @@
-// import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Button from '@material-ui/core/Button';
-
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     '& > *': {
-//       margin: theme.spacing(1),
-//     },
-//   },
-// }));
-
-// export default function ContainedButtons() {
-//   const classes = useStyles();
-
-//   return (
-//     <div className={classes.root}>
-//       <Button variant="contained" color="primary" onClick={() => { alert('clicked') }}>
-//         Add a Vinyl
-//       </Button>
-//     </div>
-//   );
-// }
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from '@material-ui/core/Button';
-import FormModal from '../components/FormModal'
+import LoginModal from './LoginModal'
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -65,7 +41,7 @@ export default function TransitionsModal() {
     <div>
         <div className={classes.root}>
       <Button variant="contained" color="primary" type="button" onClick={handleOpen}>
-        Add A Vinyl
+        Login
       </Button>
       </div>
       <Modal
@@ -82,7 +58,7 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-              <FormModal></FormModal>
+              <LoginModal></LoginModal>
           </div>
         </Fade>
       </Modal>
