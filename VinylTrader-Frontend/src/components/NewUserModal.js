@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import {useHistory} from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
+
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-export default class NewUserModal extends Component {
+class NewUserModal extends Component {
 
 constructor(props){
     super(props);
@@ -57,6 +60,7 @@ handleOnNewUserSubmit = (e) => {
             this.props.setLoggedIn()
         }
     })
+    this.props.history.push('/vinyls');
 }
 
 render (){
@@ -93,4 +97,6 @@ render (){
     );
   }
 }
+
+export default withRouter(NewUserModal);
   
