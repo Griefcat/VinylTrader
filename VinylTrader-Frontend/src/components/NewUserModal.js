@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default class NewUserModal extends Component {
 
-constructor(){
-    super();
+constructor(props){
+    super(props);
     this.state = {
         username: '',
         password: '',
@@ -51,11 +51,16 @@ handleOnNewUserSubmit = (e) => {
        body: JSON.stringify({
            username: this.state.username, 
            password: this.state.password})
-    }).then(resp => resp.json()).
-    then(user => (console.log(user)))
+    }).then(resp => resp.json())
+    .then(user => {
+        if (user.logged_in){
+            this.props.setLoggedIn()
+        }
+    })
 }
 
 render (){
+    console.log(this.props)
     return (
         <form onSubmit ={(e) => this.handleOnNewUserSubmit(e)} >
       <div className={useStyles.root}>
