@@ -13,7 +13,8 @@ class AuthController < ApplicationController
             render json: { 
                 status: 'created', 
                 logged_in: true, 
-                username: user.username
+                username: user.username,
+                user_id: user.id
              }
         else 
             render json: {status: 500, logged_in: false}

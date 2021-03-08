@@ -57,7 +57,8 @@ handleOnNewUserSubmit = (e) => {
     }).then(resp => resp.json())
     .then(user => {
         if (user.logged_in){
-            this.props.setLoggedIn()
+            this.props.setLoggedIn(user)
+            console.log(user)
         }
     })
     this.props.history.push('/vinyls');

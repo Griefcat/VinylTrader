@@ -5,6 +5,12 @@ class VinylsController < ApplicationController
       render json: @vinyls 
     end
 
+    def get_by_user_id
+        @user = User.find(params[:id])
+        render json: @user.vinyls
+    end 
+      
+
   # get
     def show
       @vinyl = Vinyl.find(params[:id])

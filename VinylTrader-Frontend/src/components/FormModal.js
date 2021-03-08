@@ -44,7 +44,7 @@ export default class FormModal extends Component {
             headers : {"Content-Type" : "application/json"},
             body : JSON.stringify(newVinyl)
         }).then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => this.props.handleSubmit(data))
        
 
         // const reqObj = {

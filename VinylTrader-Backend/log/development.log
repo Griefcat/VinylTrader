@@ -4232,3 +4232,2565 @@ Processing by AuthController#create as JSON
 Completed 200 OK in 36ms (Views: 0.4ms | ActiveRecord: 5.3ms | Allocations: 2691)
 
 
+Started GET "/vinyls" for ::1 at 2021-03-08 11:56:51 -0500
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 117ms (Views: 90.0ms | ActiveRecord: 1.4ms | Allocations: 2415)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:00:29 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 124ms (Views: 113.1ms | ActiveRecord: 1.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:09:13 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (5.0ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 136ms (Views: 95.5ms | ActiveRecord: 5.0ms | Allocations: 2414)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:10:46 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (2.9ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 60.3ms | ActiveRecord: 2.9ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:12:47 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (4.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 103ms (Views: 84.3ms | ActiveRecord: 4.6ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:14:52 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (3.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 52ms (Views: 42.3ms | ActiveRecord: 3.7ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:14:56 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (2.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 514ms (Views: 504.8ms | ActiveRecord: 2.3ms | Allocations: 2392)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:25 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:38 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:40 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:46 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:51 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:15:54 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.6ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:24:00 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (2.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 45ms (Views: 29.9ms | ActiveRecord: 2.2ms | Allocations: 2414)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:24:26 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 20.6ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:28:29 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.9ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 31.1ms | ActiveRecord: 0.9ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:29:08 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 28.0ms | ActiveRecord: 0.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:29:22 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 16.7ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 12:30:02 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"hi ", "password"=>"[FILTERED]", "auth"=>{"username"=>"hi ", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (9.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hi "], ["password", "new"], ["created_at", "2021-03-08 17:30:02.619399"], ["updated_at", "2021-03-08 17:30:02.619399"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+Completed 200 OK in 94ms (Views: 3.9ms | ActiveRecord: 16.7ms | Allocations: 2687)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:31:19 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.7ms | Allocations: 2389)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:31:21 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 12:31:26 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:09:46 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 26.9ms | ActiveRecord: 1.6ms | Allocations: 2414)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:13:37 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.8ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 50.0ms | ActiveRecord: 1.8ms | Allocations: 2389)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:13:42 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 49ms (Views: 41.9ms | ActiveRecord: 0.5ms | Allocations: 2388)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 14:13:54 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"wuddup", "password"=>"[FILTERED]", "auth"=>{"username"=>"wuddup", "password"=>"[FILTERED]"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (2.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "wuddup"], ["password", "g"], ["created_at", "2021-03-08 19:13:54.392447"], ["updated_at", "2021-03-08 19:13:54.392447"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+Completed 200 OK in 170ms (Views: 59.1ms | ActiveRecord: 6.0ms | Allocations: 2686)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 14:14:32 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"pen", "password"=>"[FILTERED]", "auth"=>{"username"=>"pen", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "pen"], ["password", "guin"], ["created_at", "2021-03-08 19:14:32.288069"], ["updated_at", "2021-03-08 19:14:32.288069"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+Completed 200 OK in 52ms (Views: 2.6ms | ActiveRecord: 5.9ms | Allocations: 2687)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:15:15 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:15:32 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 2388)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 14:15:36 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"f", "password"=>"[FILTERED]", "auth"=>{"username"=>"f", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "f"], ["password", "f"], ["created_at", "2021-03-08 19:15:36.397663"], ["updated_at", "2021-03-08 19:15:36.397663"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (34.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+Completed 200 OK in 52ms (Views: 0.2ms | ActiveRecord: 35.5ms | Allocations: 2686)
+
+
+Started GET "/" for ::1 at 2021-03-08 14:16:49 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/annenardolilli/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/annenardolilli/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 60.7ms | Allocations: 315)
+Completed 200 OK in 184ms (Views: 127.5ms | ActiveRecord: 0.0ms | Allocations: 1659)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:16:59 -0500
+Processing by VinylsController#index as HTML
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.3ms | Allocations: 2573)
+
+
+Started GET "/user/vinyls" for ::1 at 2021-03-08 14:17:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/user/vinyls"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (98.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUserVinyl Load (0.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:21 -0500
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 220ms (Views: 142.4ms | ActiveRecord: 9.6ms | Allocations: 10611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:29 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 2403)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:33 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.4ms | Allocations: 2403)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:35 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 2403)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:39 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 2403)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:45 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.6ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 14:37:48 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 2388)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 15:07:40 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (6.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+Completed 200 OK in 167ms (Views: 127.0ms | ActiveRecord: 6.7ms | Allocations: 2414)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 15:07:49 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"ray", "password"=>"[FILTERED]", "auth"=>{"username"=>"ray", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (41.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "ray"], ["password", "the man "], ["created_at", "2021-03-08 20:07:50.402791"], ["updated_at", "2021-03-08 20:07:50.402791"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (62.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+Completed 200 OK in 1208ms (Views: 0.5ms | ActiveRecord: 108.7ms | Allocations: 11718)
+
+
+  [1m[35m (11.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mVinyl Load (3.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mVinyl Load (6.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" WHERE "vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mUserVinyl Load (12.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mUserVinyl Load (0.9ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mUserVinyl Load (0.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (5.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUserVinyl Load (0.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mUserVinyl Load (0.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mUserVinyl Load (0.2ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE (id>1) LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUserVinyl Load (0.2ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mUserVinyl Load (0.3ms)[0m  [1m[34mSELECT "user_vinyls".* FROM "user_vinyls" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mVinyl Load (2.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" WHERE "vinyls"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mVinyl Load (0.8ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
+Started GET "/user/1" for ::1 at 2021-03-08 15:56:37 -0500
+  [1m[35m (119.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/user/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1" for ::1 at 2021-03-08 15:57:24 -0500
+Processing by UsersController#show as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/51h-cJeHf0L.jpg", "title "=>"IV", "artist"=>"Led Coolguys", "genre"=>"Rock", "year"=>"1971", "rare"=>"false ", "id"=>"1"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (9.51ms)
+Completed 200 OK in 366ms (Views: 96.0ms | ActiveRecord: 5.1ms | Allocations: 10723)
+
+
+Started GET "/users/1" for ::1 at 2021-03-08 16:01:26 -0500
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+    rrender :json @user, include: => {:vinyls}
+                  ^~~~~
+/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+...on @user, include: => {:vinyls}
+...                              ^):
+  
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+Started GET "/users/1" for ::1 at 2021-03-08 16:01:53 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+    render :json @user, include: => {:vinyls}
+                 ^~~~~
+/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+...on @user, include: => {:vinyls}
+...                              ^):
+  
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+Started GET "/users/1" for ::1 at 2021-03-08 16:04:14 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected =>
+...render json: @user, include: => {:vinyls}
+...                             ^~
+/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+...n: @user, include: => {:vinyls}
+...                              ^):
+  
+app/controllers/users_controller.rb:9: syntax error, unexpected =>
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected =>
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:9: syntax error, unexpected =>
+app/controllers/users_controller.rb:9: syntax error, unexpected '}', expecting =>
+Started GET "/users/1" for ::1 at 2021-03-08 16:05:27 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/51h-cJeHf0L.jpg", "title "=>"IV", "artist"=>"Led Coolguys", "genre"=>"Rock", "year"=>"1971", "rare"=>"false ", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `show'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "vinyls"."id" FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+Completed 200 OK in 537ms (Views: 67.4ms | ActiveRecord: 10.0ms | Allocations: 16395)
+
+
+Started GET "/v" for ::1 at 2021-03-08 16:10:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/v"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/vinyls" for ::1 at 2021-03-08 16:10:39 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (11.94ms)
+Completed 200 OK in 433ms (Views: 431.1ms | ActiveRecord: 0.5ms | Allocations: 10713)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:11:29 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (2.05ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 2612)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:12:05 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (2.33ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 2611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:12:20 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (1.82ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 2626)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:13:24 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (4.21ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms | Allocations: 2611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:13:33 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (12.52ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms | Allocations: 2611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:13:42 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (2.99ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.4ms | Allocations: 2627)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:13:47 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (45.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (6.98ms)
+Completed 200 OK in 60ms (Views: 13.3ms | ActiveRecord: 45.4ms | Allocations: 2611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:14:05 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (1.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (2.46ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.2ms | Allocations: 2611)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:15:19 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (5.65ms)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.5ms | Allocations: 2611)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 16:15:34 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"bryce", "password"=>"[FILTERED]", "auth"=>{"username"=>"bryce", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (53.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "bryce"], ["password", "m"], ["created_at", "2021-03-08 21:15:34.986412"], ["updated_at", "2021-03-08 21:15:34.986412"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (42.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 430ms (Views: 73.8ms | ActiveRecord: 96.2ms | Allocations: 7478)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 16:17:16 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+                user_id: user.id
+                ^~~~~~~
+/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+             }
+             ^):
+  
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+Started GET "/vinyls" for ::1 at 2021-03-08 16:18:41 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (28.09ms)
+Completed 200 OK in 301ms (Views: 273.7ms | ActiveRecord: 2.0ms | Allocations: 13736)
+
+
+Started GET "/vinyls" for ::1 at 2021-03-08 16:18:51 -0500
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (4.54ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.5ms | Allocations: 2611)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 16:19:00 -0500
+  
+SyntaxError (/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+                user_id: user.id
+                ^~~~~~~
+/Users/annenardolilli/Flatiron/VinylTrader/VinylTrader/VinylTrader-Backend/app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+             }
+             ^):
+  
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+app/controllers/auth_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/auth_controller.rb:18: syntax error, unexpected '}', expecting end
+Started GET "/vinyls" for ::1 at 2021-03-08 16:19:40 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#index as */*
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls"[0m
+  ↳ app/controllers/vinyls_controller.rb:5:in `index'
+No serializer found for resource: #<Vinyl id: 6, image: "https://media.pitchfork.com/photos/5ab41f308195c01...", title: "Golden Hour", artist: "Kacey Musgraves", genre: "country", year: 2018, rare: false, created_at: "2021-01-13 22:20:27", updated_at: "2021-01-13 22:20:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Vinyl::ActiveRecord_Relation (10.7ms)
+Completed 200 OK in 142ms (Views: 113.3ms | ActiveRecord: 3.5ms | Allocations: 13733)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 16:19:49 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"bry", "password"=>"[FILTERED]", "auth"=>{"username"=>"bry", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "bry"], ["password", "ce"], ["created_at", "2021-03-08 21:19:49.610050"], ["updated_at", "2021-03-08 21:19:49.610050"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 58ms (Views: 1.8ms | ActiveRecord: 7.0ms | Allocations: 8031)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:30:24 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 1751ms (ActiveRecord: 0.0ms | Allocations: 96598)
+
+
+  
+NameError (undefined local variable or method `user' for #<VinylsController:0x00007f9f6c51d098>
+Did you mean?  super):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 16:30:44 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"yo", "password"=>"[FILTERED]", "auth"=>{"username"=>"yo", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:30:44 -0500
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Create (4.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "yo"], ["password", "yo"], ["created_at", "2021-03-08 21:30:44.200618"], ["updated_at", "2021-03-08 21:30:44.200618"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 599ms (Views: 140.0ms | ActiveRecord: 11.6ms | Allocations: 60499)
+
+
+Completed 500 Internal Server Error in 1047ms (ActiveRecord: 0.0ms | Allocations: 108971)
+
+
+  
+NameError (undefined local variable or method `user' for #<VinylsController:0x00007f9f6f49c468>
+Did you mean?  super):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/vinyls" for ::1 at 2021-03-08 16:31:19 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"hey", "title"=>"hey", "artist"=>"hey", "genre"=>"hey", "year"=>"hey", "vinyl"=>{"image"=>"hey", "title"=>"hey", "artist"=>"hey", "genre"=>"hey", "year"=>"hey"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (14.1ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "hey"], ["title", "hey"], ["artist", "hey"], ["genre", "hey"], ["year", 0], ["created_at", "2021-03-08 21:31:19.841584"], ["updated_at", "2021-03-08 21:31:19.841584"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (49.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (0.49ms)
+Completed 200 OK in 286ms (Views: 13.0ms | ActiveRecord: 63.4ms | Allocations: 10136)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:31:24 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 1381ms (ActiveRecord: 0.0ms | Allocations: 96590)
+
+
+  
+NameError (undefined local variable or method `user' for #<VinylsController:0x00007f9f6f6af4d0>
+Did you mean?  super):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:33:06 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (80.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 236ms (ActiveRecord: 84.1ms | Allocations: 3007)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 16:33:21 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"newb", "password"=>"[FILTERED]", "auth"=>{"username"=>"newb", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (2.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "newb"], ["password", "newb"], ["created_at", "2021-03-08 21:33:21.756750"], ["updated_at", "2021-03-08 21:33:21.756750"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (18.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 156ms (Views: 6.3ms | ActiveRecord: 20.8ms | Allocations: 8050)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:33:22 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms | Allocations: 1011)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 16:36:27 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"new", "password"=>"[FILTERED]", "auth"=>{"username"=>"new", "password"=>"[FILTERED]"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (6.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "new"], ["password", "new"], ["created_at", "2021-03-08 21:36:27.990136"], ["updated_at", "2021-03-08 21:36:27.990136"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.82ms)
+Completed 200 OK in 132ms (Views: 16.4ms | ActiveRecord: 13.6ms | Allocations: 2776)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:36:28 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.3ms | Allocations: 1011)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:29 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (2.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.4ms)
+Completed 200 OK in 645ms (Views: 447.2ms | ActiveRecord: 29.2ms | Allocations: 88733)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:29 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 71ms (Views: 20.1ms | ActiveRecord: 1.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 23ms (Views: 15.5ms | ActiveRecord: 0.8ms | Allocations: 2032)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 28ms (Views: 4.2ms | ActiveRecord: 4.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 127ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 3074)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.22ms)
+Completed 200 OK in 28ms (Views: 11.4ms | ActiveRecord: 0.4ms | Allocations: 6828)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 62ms (Views: 15.1ms | ActiveRecord: 0.5ms | Allocations: 2093)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 39ms (Views: 31.1ms | ActiveRecord: 0.4ms | Allocations: 2385)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:30 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.0ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 274ms (Views: 266.7ms | ActiveRecord: 1.2ms | Allocations: 1944)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.24ms)
+Completed 200 OK in 110ms (Views: 105.3ms | ActiveRecord: 0.4ms | Allocations: 1912)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.55ms)
+Completed 200 OK in 17ms (Views: 6.1ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 44ms (Views: 17.0ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.0ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 1.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.22ms)
+Completed 200 OK in 10ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 21ms (Views: 10.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 16ms (Views: 8.7ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:31 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.23ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:32 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (5.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 22ms (Views: 12.7ms | ActiveRecord: 5.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:32 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 19ms (Views: 13.8ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:32 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (14.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 33ms (Views: 7.2ms | ActiveRecord: 14.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:32 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 14ms (Views: 6.2ms | ActiveRecord: 1.2ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:32 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 14ms (Views: 4.4ms | ActiveRecord: 1.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 17ms (Views: 7.8ms | ActiveRecord: 0.9ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 10ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.23ms)
+Completed 200 OK in 10ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 131ms (Views: 123.2ms | ActiveRecord: 0.5ms | Allocations: 1910)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 50ms (Views: 12.7ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:33 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.44ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.62ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 12ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:34 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 18ms (Views: 4.8ms | ActiveRecord: 1.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.42ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.16ms)
+Completed 200 OK in 211ms (Views: 201.5ms | ActiveRecord: 0.7ms | Allocations: 1910)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:35 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.26ms)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:36 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:36 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:36 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 1912)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:36 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 141ms (Views: 136.3ms | ActiveRecord: 0.4ms | Allocations: 1910)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:36 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 124ms (Views: 18.8ms | ActiveRecord: 1.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 90ms (Views: 86.3ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (63.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 85ms (Views: 10.8ms | ActiveRecord: 63.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 16ms (Views: 9.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 91ms (Views: 73.8ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.18ms)
+Completed 200 OK in 21ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:37 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 1.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:38 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 109ms (Views: 105.6ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:38 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:38 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:38 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:38 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 24ms (Views: 18.8ms | ActiveRecord: 1.2ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:39 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:39 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:39 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 20ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:39 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 15ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:39 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 20ms (Views: 14.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 46ms (Views: 37.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 13ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:40 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:41 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:41 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:41 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.23ms)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:42 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.9ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 63ms (Views: 56.1ms | ActiveRecord: 1.0ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 170ms (Views: 166.2ms | ActiveRecord: 0.6ms | Allocations: 1912)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.31ms)
+Completed 200 OK in 14ms (Views: 5.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 26ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 1.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:43 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:44 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.41ms)
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:44 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:44 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:44 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.9ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.91ms)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 1.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.06ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.1ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 1.3ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 1.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:45 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 153ms (Views: 7.9ms | ActiveRecord: 2.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.41ms)
+Completed 200 OK in 16ms (Views: 8.9ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.24ms)
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 36ms (Views: 22.9ms | ActiveRecord: 1.1ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 10ms (Views: 4.4ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.46ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.21ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.92ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:47 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 16ms (Views: 12.6ms | ActiveRecord: 0.8ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (5.0ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 16ms (Views: 5.0ms | ActiveRecord: 5.2ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.22ms)
+Completed 200 OK in 38ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 0.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.8ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.39ms)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 1.0ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.13ms)
+Completed 200 OK in 14ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:48 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 1910)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.23ms)
+Completed 200 OK in 176ms (Views: 139.2ms | ActiveRecord: 0.4ms | Allocations: 1912)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 14ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.27ms)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:49 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.1ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.6ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 1.7ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 15ms (Views: 4.4ms | ActiveRecord: 0.9ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.15ms)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/vinylsbyuser/40" for ::1 at 2021-03-08 16:36:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 40]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.08ms)
+Completed 200 OK in 12ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 16:41:08 -0500
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"yup", "password"=>"[FILTERED]", "auth"=>{"username"=>"yup", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (172.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "yup"], ["password", "yup"], ["created_at", "2021-03-08 21:41:08.632507"], ["updated_at", "2021-03-08 21:41:08.632507"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.1ms)
+Completed 200 OK in 370ms (Views: 13.2ms | ActiveRecord: 180.5ms | Allocations: 10978)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:41:09 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 14ms (ActiveRecord: 1.0ms | Allocations: 1441)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 16:47:52 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"hey", "password"=>"[FILTERED]", "auth"=>{"username"=>"hey", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (19.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hey"], ["password", "hi"], ["created_at", "2021-03-08 21:47:53.080153"], ["updated_at", "2021-03-08 21:47:53.080153"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.64ms)
+Completed 200 OK in 433ms (Views: 21.3ms | ActiveRecord: 21.6ms | Allocations: 2831)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:47:53 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.3ms | Allocations: 1052)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 16:53:58 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"new", "password"=>"[FILTERED]", "auth"=>{"username"=>"new", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "new"], ["password", "fruebd"], ["created_at", "2021-03-08 21:53:58.801716"], ["updated_at", "2021-03-08 21:53:58.801716"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 20ms (Views: 0.8ms | ActiveRecord: 3.0ms | Allocations: 2786)
+
+
+Started GET "/vinylsbyuser/undefined" for ::1 at 2021-03-08 16:53:59 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1042)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=undefined):
+  
+app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+Started POST "/newuser" for ::1 at 2021-03-08 17:01:51 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"cool", "password"=>"[FILTERED]", "auth"=>{"username"=>"cool", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (35.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "cool"], ["password", "cool"], ["created_at", "2021-03-08 22:01:51.777995"], ["updated_at", "2021-03-08 22:01:51.777995"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.61ms)
+Completed 200 OK in 562ms (Views: 179.6ms | ActiveRecord: 46.4ms | Allocations: 2791)
+
+
+Started GET "/vinylsbyuser/44" for ::1 at 2021-03-08 17:01:52 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (2.1ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 44]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.07ms)
+Completed 200 OK in 828ms (Views: 350.8ms | ActiveRecord: 7.5ms | Allocations: 12565)
+
+
+Started POST "/vinyls" for ::1 at 2021-03-08 17:02:39 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hi", "artist"=>"hi", "genre"=>"hi", "year"=>"2020", "vinyl"=>{"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hi", "artist"=>"hi", "genre"=>"hi", "year"=>"2020"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (2.1ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg"], ["title", "hi"], ["artist", "hi"], ["genre", "hi"], ["year", 2020], ["created_at", "2021-03-08 22:02:39.697435"], ["updated_at", "2021-03-08 22:02:39.697435"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (3.27ms)
+Completed 200 OK in 604ms (Views: 477.7ms | ActiveRecord: 6.5ms | Allocations: 16258)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 17:03:20 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"hi", "password"=>"[FILTERED]", "auth"=>{"username"=>"hi", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hi"], ["password", "hi"], ["created_at", "2021-03-08 22:03:20.800364"], ["updated_at", "2021-03-08 22:03:20.800364"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 200 OK in 17ms (Views: 1.9ms | ActiveRecord: 3.8ms | Allocations: 2781)
+
+
+Started GET "/vinylsbyuser/45" for ::1 at 2021-03-08 17:03:21 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"45"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.2ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 45]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 10ms (Views: 4.9ms | ActiveRecord: 1.5ms | Allocations: 1909)
+
+
+Started POST "/vinyls" for ::1 at 2021-03-08 17:03:35 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"hey", "year"=>"hey", "vinyl"=>{"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"hey", "year"=>"hey"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (0.5ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg"], ["title", "hey"], ["artist", "hey"], ["genre", "hey"], ["year", 0], ["created_at", "2021-03-08 22:03:35.106061"], ["updated_at", "2021-03-08 22:03:35.106061"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (1.34ms)
+Completed 200 OK in 57ms (Views: 2.2ms | ActiveRecord: 3.1ms | Allocations: 2842)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 17:05:49 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"dog", "password"=>"[FILTERED]", "auth"=>{"username"=>"dog", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (14.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "dog"], ["password", "dog "], ["created_at", "2021-03-08 22:05:49.320921"], ["updated_at", "2021-03-08 22:05:49.320921"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (16.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 200 OK in 54ms (Views: 10.0ms | ActiveRecord: 31.1ms | Allocations: 2779)
+
+
+Started GET "/vinylsbyuser/46" for ::1 at 2021-03-08 17:05:50 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"46"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 46]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 1.0ms | Allocations: 1911)
+
+
+Started POST "/vinyls" for ::1 at 2021-03-08 17:06:51 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"yo", "year"=>"hey", "vinyl"=>{"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"yo", "year"=>"hey"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (4.1ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg"], ["title", "hey"], ["artist", "hey"], ["genre", "yo"], ["year", 0], ["created_at", "2021-03-08 22:06:51.088342"], ["updated_at", "2021-03-08 22:06:51.088342"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (9.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (1.3ms)
+Completed 200 OK in 35ms (Views: 5.5ms | ActiveRecord: 13.8ms | Allocations: 2842)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 17:11:24 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"hey", "password"=>"[FILTERED]", "auth"=>{"username"=>"hey", "password"=>"[FILTERED]"}}
+  [1m[35m (1.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (3.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hey"], ["password", "123"], ["created_at", "2021-03-08 22:11:24.519169"], ["updated_at", "2021-03-08 22:11:24.519169"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.14ms)
+Completed 200 OK in 271ms (Views: 5.6ms | ActiveRecord: 9.9ms | Allocations: 2777)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 17:12:45 -0500
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"dude", "password"=>"[FILTERED]", "auth"=>{"username"=>"dude", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "dude"], ["password", "dude"], ["created_at", "2021-03-08 22:12:45.851580"], ["updated_at", "2021-03-08 22:12:45.851580"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 27ms (Views: 2.2ms | ActiveRecord: 8.6ms | Allocations: 2778)
+
+
+Started GET "/vinylsbyuser/48" for ::1 at 2021-03-08 17:12:46 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"48"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (0.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 48]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.5ms)
+Completed 200 OK in 42ms (Views: 26.2ms | ActiveRecord: 2.6ms | Allocations: 1909)
+
+
+Started POST "/vinyls" for ::1 at 2021-03-08 17:12:58 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"123", "year"=>"hi", "vinyl"=>{"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"hey", "artist"=>"hey", "genre"=>"123", "year"=>"hi"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (4.5ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg"], ["title", "hey"], ["artist", "hey"], ["genre", "123"], ["year", 0], ["created_at", "2021-03-08 22:12:58.585920"], ["updated_at", "2021-03-08 22:12:58.585920"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (0.46ms)
+Completed 200 OK in 76ms (Views: 7.1ms | ActiveRecord: 6.6ms | Allocations: 6510)
+
+
+Started DELETE "/vinyls/28" for ::1 at 2021-03-08 17:13:16 -0500
+Processing by VinylsController#destroy as */*
+  Parameters: {"id"=>"28"}
+  [1m[36mVinyl Load (5.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" WHERE "vinyls"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:43:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+  [1m[36mVinyl Destroy (3.7ms)[0m  [1m[31mDELETE FROM "vinyls" WHERE "vinyls"."id" = ?[0m  [["id", 28]]
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.21ms)
+Completed 200 OK in 86ms (Views: 7.7ms | ActiveRecord: 12.7ms | Allocations: 2835)
+
+

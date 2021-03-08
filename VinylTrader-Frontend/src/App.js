@@ -8,7 +8,7 @@ import NewUserModal from './components/NewUserModal'
 
 
 
-const url = 'http://localhost:3000/vinyls'
+
 const axios = require('axios').default
 // const [loggedIn, setLoggedIn] = useState(false)
 
@@ -17,19 +17,13 @@ class App extends Component {
 state = {
   vinyls: [],
   loggedIn: false,
+  user: {}
 }
 
-componentDidMount(){
-  fetch(url)
-    .then(response => response.json())
-    .then((vinyls) => 
-      console.log(vinyls)
-      (this.setState({vinyls: vinyls}))
-    )
-    .catch((error) => {
-      console.error(error);
-    })
+setVinyls = (vinyls) => {
+  this.setState({vinyls: vinyls})
 }
+
 
 handleSubmit = (vinyl) => {this.setState({vinyls: [vinyl, ...this.state.vinyls,]})}
 
@@ -58,8 +52,9 @@ deleteVinyl = (vinyl) => {
 
   }
 
-  setLoggedIn = () => {
+  setLoggedIn = (user) => {
     this.setState({loggedIn: true})
+    this.setState({user: user})
   }
   
 render(){
@@ -73,8 +68,8 @@ const vinyls = this.state.vinyls
       <TopNavBar/>
       <Route exact path='/' render={() => <LandingPage test={'test'} setLoggedIn={this.setLoggedIn.bind(this)}/>}/>
       <Route exact path='/newuser' render={() => <NewUserModal test={'test'} setLoggedIn={this.setLoggedIn.bind(this)}/>}/>
-      <Route exact path='/vinyls' render={() => <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>}/>
-
+      <Route exact path='/vinyls' render={() => <VinylContainer setVinyls={this.setVinyls} user={this.state.user} vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>} setLoggedIn={this.setLoggedIn.bind(this)}/>
+      {/* <Route exact path='/:username/vinyls' render={() => <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>} setLoggedIn={this.setLoggedIn.bind(this)}/> */}
       
       
     </div>
