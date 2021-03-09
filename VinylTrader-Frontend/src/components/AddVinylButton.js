@@ -83,7 +83,7 @@ export default function TransitionsModal(props) {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-              <FormModal handleSubmit={props.handleSubmit}></FormModal>
+              <FormModal user={props.user} handleSubmit={props.handleSubmit}></FormModal>
           </div>
         </Fade>
       </Modal>

@@ -37,7 +37,7 @@ export default class FormModal extends Component {
 
         console.log( image, title, artist, genre, year)
 
-        const newVinyl = {image, title, artist, genre, year}
+        const newVinyl = {image, title, artist, genre, year, user_id: this.props.user.id}
 
         fetch('http://localhost:3000/vinyls', {
             method : "POST",

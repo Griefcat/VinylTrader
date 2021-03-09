@@ -18,8 +18,8 @@ const url = 'http://localhost:3000/vinylsbyuser/'
 export default class VinylContainer extends Component {
 
     componentDidUpdate(prevprops){
-          if (prevprops.user.user_id != this.props.user.user_id)
-          {fetch(url + this.props.user.user_id)
+          if (prevprops.user.id != this.props.user.id)
+          {fetch(url + this.props.user.id)
             .then(response => response.json())
             .then((vinyls) => 
               console.log(vinyls)
@@ -39,7 +39,7 @@ export default class VinylContainer extends Component {
             
             <div>
                 <LogOutButton></LogOutButton>
-                <AddVinylButton handleSubmit={this.props.handleSubmit}></AddVinylButton>
+                <AddVinylButton handleSubmit={this.props.handleSubmit} user={this.props.user}></AddVinylButton>
                 <div>
                 Your Vinyl Collection
                 </div>

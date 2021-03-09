@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
+import {useHistory} from 'react-router-dom'
 
 export default function LogOutButton() {
 
@@ -7,9 +8,11 @@ export default function LogOutButton() {
     //     this.setState({loggedIn: false})
     //   };
 
+    const history = useHistory()
+
     return (
         <div>
-            <Button variant="contained" color="primary" type="button">
+            <Button onClick = {()=> history.push('/')}variant="contained" color="primary" type="button">
         Logout
       </Button>
         </div>

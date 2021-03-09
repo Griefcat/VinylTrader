@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
       },
 }));
 
-export default function TransitionsModal() {
+export default function TransitionsModal(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -58,7 +58,7 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-              <LoginModal></LoginModal>
+              <LoginModal setLoggedIn={props.setLoggedIn}></LoginModal>
           </div>
         </Fade>
       </Modal>
