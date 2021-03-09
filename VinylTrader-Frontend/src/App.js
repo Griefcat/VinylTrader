@@ -7,6 +7,7 @@ import LandingPage from './containers/LandingPage'
 import NewUserModal from './components/NewUserModal'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 
+
 const theme = createMuiTheme({
   palette: {
     primary: {
