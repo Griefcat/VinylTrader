@@ -5,8 +5,18 @@ import TopNavBar from './containers/TopNavBar'
 import {Route} from 'react-router-dom'
 import LandingPage from './containers/LandingPage'
 import NewUserModal from './components/NewUserModal'
+import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 
-
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#183A37'
+    },
+    secondary: {
+      main: '#D6EFFF'
+    }
+  },
+})
 
 
 const axios = require('axios').default
@@ -63,14 +73,17 @@ const vinyls = this.state.vinyls
 
 
   return (
-    <div className="App">
-      
+    <div className="App" style={{
+      backgroundColor: '#EFD6AC',
+      height: '100vh'
+    }}>
+      <ThemeProvider theme={theme}>
       <TopNavBar/>
       <Route exact path='/' render={() => <LandingPage test={'test'} setLoggedIn={this.setLoggedIn.bind(this)}/>}/>
       <Route exact path='/newuser' render={() => <NewUserModal test={'test'} setLoggedIn={this.setLoggedIn.bind(this)}/>}/>
       <Route exact path='/vinyls' render={() => <VinylContainer setVinyls={this.setVinyls} user={this.state.user} vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>} setLoggedIn={this.setLoggedIn.bind(this)}/>
       {/* <Route exact path='/:username/vinyls' render={() => <VinylContainer vinyls={vinyls} handleSubmit={this.handleSubmit} deleteVinyl={this.deleteVinyl}/>} setLoggedIn={this.setLoggedIn.bind(this)}/> */}
-      
+      </ThemeProvider>
       
     </div>
   );

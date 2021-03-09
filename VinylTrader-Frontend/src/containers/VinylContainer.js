@@ -38,15 +38,18 @@ export default class VinylContainer extends Component {
         return (
             
             <div>
-                Your Vinyls
                 <LogOutButton></LogOutButton>
                 <AddVinylButton handleSubmit={this.props.handleSubmit}></AddVinylButton>
+                <div>
+                Your Vinyl Collection
+                </div>
                 <Grid container spacing={4} className = {useStyles.gridContainer}>
                     <Grid item md={4}>
                     {this.props.vinyls.map(
                         vinyl => <VinylCard key={vinyl.id} vinyl={vinyl} deleteVinyl={this.props.deleteVinyl}/>)}
                     </Grid>
                 </Grid>
+
                 
                 
                 

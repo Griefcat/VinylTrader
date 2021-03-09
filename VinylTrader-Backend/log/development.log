@@ -6794,3 +6794,109 @@ Processing by VinylsController#destroy as */*
 Completed 200 OK in 86ms (Views: 7.7ms | ActiveRecord: 12.7ms | Allocations: 2835)
 
 
+Started POST "/newuser" for ::1 at 2021-03-08 19:58:21 -0500
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"hey", "password"=>"[FILTERED]", "auth"=>{"username"=>"hey", "password"=>"[FILTERED]"}}
+  [1m[35m (2.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (2.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hey"], ["password", "hey"], ["created_at", "2021-03-09 00:58:22.368381"], ["updated_at", "2021-03-09 00:58:22.368381"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.19ms)
+Completed 200 OK in 193ms (Views: 20.6ms | ActiveRecord: 7.0ms | Allocations: 2778)
+
+
+Started GET "/vinylsbyuser/49" for ::1 at 2021-03-08 19:58:22 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"49"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 49], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.3ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 49]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.13ms)
+Completed 200 OK in 366ms (Views: 15.2ms | ActiveRecord: 1.8ms | Allocations: 2772)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 20:05:59 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"f", "password"=>"[FILTERED]", "auth"=>{"username"=>"f", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (2.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "f"], ["password", "f"], ["created_at", "2021-03-09 01:05:59.379335"], ["updated_at", "2021-03-09 01:05:59.379335"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.4ms)
+Completed 200 OK in 48ms (Views: 5.6ms | ActiveRecord: 6.2ms | Allocations: 2777)
+
+
+Started GET "/vinylsbyuser/50" for ::1 at 2021-03-08 20:05:59 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"50"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 50], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.7ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 50]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.36ms)
+Completed 200 OK in 23ms (Views: 13.1ms | ActiveRecord: 2.0ms | Allocations: 1951)
+
+
+Started POST "/newuser" for ::1 at 2021-03-08 20:39:05 -0500
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"NEW", "password"=>"[FILTERED]", "auth"=>{"username"=>"NEW", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[36mUser Create (2.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "NEW"], ["password", "USER"], ["created_at", "2021-03-09 01:39:05.362925"], ["updated_at", "2021-03-09 01:39:05.362925"]]
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/auth_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.18ms)
+Completed 200 OK in 96ms (Views: 5.4ms | ActiveRecord: 11.4ms | Allocations: 2777)
+
+
+Started GET "/vinylsbyuser/51" for ::1 at 2021-03-08 20:39:05 -0500
+Processing by VinylsController#get_by_user_id as */*
+  Parameters: {"id"=>"51"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 51], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:9:in `get_by_user_id'
+  [1m[36mVinyl Load (1.6ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" INNER JOIN "user_vinyls" ON "vinyls"."id" = "user_vinyls"."vinyl_id" WHERE "user_vinyls"."user_id" = ?[0m  [["user_id", 51]]
+  ↳ app/controllers/vinyls_controller.rb:10:in `get_by_user_id'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.0ms)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 1.8ms | Allocations: 1949)
+
+
+Started POST "/vinyls" for ::1 at 2021-03-08 20:41:25 -0500
+Processing by VinylsController#create as */*
+  Parameters: {"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"Heard It In A Past Life", "artist"=>"Maggie Rogers", "genre"=>"Indie ", "year"=>"2019", "vinyl"=>{"image"=>"https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg", "title"=>"Heard It In A Past Life", "artist"=>"Maggie Rogers", "genre"=>"Indie ", "year"=>"2019"}}
+[31mUnpermitted parameter: :vinyl[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[36mVinyl Create (1.3ms)[0m  [1m[32mINSERT INTO "vinyls" ("image", "title", "artist", "genre", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["image", "https://images-na.ssl-images-amazon.com/images/I/81JqDzbXbTL._SL1200_.jpg"], ["title", "Heard It In A Past Life"], ["artist", "Maggie Rogers"], ["genre", "Indie "], ["year", 2019], ["created_at", "2021-03-09 01:41:25.704337"], ["updated_at", "2021-03-09 01:41:25.704337"]]
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:23:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Vinyl (12.25ms)
+Completed 200 OK in 72ms (Views: 15.4ms | ActiveRecord: 5.7ms | Allocations: 2842)
+
+
+Started DELETE "/vinyls/29" for ::1 at 2021-03-08 20:41:59 -0500
+Processing by VinylsController#destroy as */*
+  Parameters: {"id"=>"29"}
+  [1m[36mVinyl Load (2.5ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" WHERE "vinyls"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/vinyls_controller.rb:43:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+  [1m[36mVinyl Destroy (2.1ms)[0m  [1m[31mDELETE FROM "vinyls" WHERE "vinyls"."id" = ?[0m  [["id", 29]]
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vinyls_controller.rb:45:in `destroy'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.49ms)
+Completed 200 OK in 30ms (Views: 4.8ms | ActiveRecord: 10.9ms | Allocations: 2702)
+
+
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mVinyl Load (0.4ms)[0m  [1m[34mSELECT "vinyls".* FROM "vinyls" LIMIT ?[0m  [["LIMIT", 11]]
